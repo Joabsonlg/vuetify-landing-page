@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "firebase": "^7.17.1",
     "vue": "^2.6.11",
     "vue-youtube-embed": "^2.2.2",
     "vuetify": "^2.2.11"

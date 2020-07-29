@@ -7,21 +7,34 @@
       dark
       src="@/assets/bgn.jpg"
     >
-      <v-list dense>
-        <v-list-item link>
-          <v-list-item-action>
-            <v-icon>mdi-home</v-icon>
-          </v-list-item-action>
+      <v-list>
+        <v-list-item>
+          <v-list-item-avatar>
+            <img src="@/assets/logo.png" alt="Logo" />
+          </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title>Home</v-list-item-title>
+            <v-list-item-title class="title">Calango</v-list-item-title>
+            <v-list-item-subtitle>WEB</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link>
-          <v-list-item-action>
-            <v-icon>mdi-email</v-icon>
-          </v-list-item-action>
+      </v-list>
+
+      <v-divider />
+
+      <v-list dense>
+        <v-list-item
+          v-for="([icon, text, link], i) in items"
+          :key="i"
+          link
+          @click="$vuetify.goTo(link)"
+        >
+          <v-list-item-icon class="justify-center">
+            <v-icon>{{ icon }}</v-icon>
+          </v-list-item-icon>
           <v-list-item-content>
-            <v-list-item-title>Contact</v-list-item-title>
+            <v-list-item-title class="subtitile-1">{{
+              text
+            }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -81,6 +94,13 @@ export default {
   data: () => ({
     drawer: null,
     isXs: false,
+    items: [
+      ["mdi-home-outline", "Home", "#hero"],
+      ["mdi-information-outline", "Sobre", "#features"],
+      ["mdi-download-box-outline", "Download", "#download"],
+      ["mdi-currency-usd", "Preços", "#pricing"],
+      ["mdi-email-outline", "Contatos", "#contact"],
+    ],
   }),
   props: {
     color: String,
