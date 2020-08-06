@@ -15,5 +15,8 @@ npm run serve
 npm run build
 ```
 
+### Live preview
+See [Vuetify Landing Page Template](https://cli.vuejs.org/config/).
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
