@@ -62,7 +62,7 @@
       </v-row>
     </v-container>
     <div class="svg-border-waves text-white">
-      <v-img src="~@/assets/borderWavesBlue.svg" />
+      <v-img src="~@/assets/img/borderWavesBlue.svg" />
     </div>
   </section>
 </template>

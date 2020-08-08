@@ -1,6 +1,6 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/back3.jpg" height="750">
+    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
@@ -70,7 +70,7 @@
         </v-col>
       </v-row>
       <div class="svg-border-waves text-white">
-        <v-img src="@/assets/borderWaves.svg" />
+        <v-img src="@/assets/img/borderWaves.svg" />
       </div>
     </v-parallax>
     <v-container fluid id="features" class="mt-2">
@@ -124,7 +124,7 @@
       </v-card>
     </v-dialog>
     <div class="svg-border-waves">
-      <img src="~@/assets/wave-bottom.svg" />
+      <img src="~@/assets/img/wave2.svg" />
     </div>
   </section>
 </template>
@@ -137,17 +137,17 @@ export default {
       videoId: "i8IvvHJssWE",
       features: [
         {
-          img: require("@/assets/business-4-2.png"),
+          img: require("@/assets/img/icon2.png"),
           title: "Design Limpo",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
-          img: require("@/assets/business-4.png"),
+          img: require("@/assets/img/icon1.png"),
           title: "Dados Seguros",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
-          img: require("@/assets/business-4-1.png"),
+          img: require("@/assets/img/icon3.png"),
           title: "Código Aberto",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },

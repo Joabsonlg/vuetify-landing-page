@@ -29,7 +29,7 @@
 
 <style scoped>
 .v-main {
-  background-image: url("~@/assets/fundo.png");
+  background-image: url("~@/assets/img/bgMain.png");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
