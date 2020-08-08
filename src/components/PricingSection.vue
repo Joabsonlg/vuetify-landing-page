@@ -39,13 +39,12 @@
                     <li
                       v-for="(feature, j) in plano.features"
                       :key="j"
-                      :class="{
-                        'subtitle-1': $vuetify.breakpoint.xsOnly,
-                        'text-h6': $vuetify.breakpoint.smOnly,
-                        'text-h5': $vuetify.breakpoint.mdAndUp,
-                      }"
+                      :class="sizeText"
                     >
-                      <p class="secondary--text mb-0 ml-3" style="text-align: start">
+                      <p
+                        class="secondary--text mb-0 ml-3"
+                        style="text-align: start"
+                      >
                         {{ feature.text }}
                       </p>
                     </li>
@@ -272,6 +271,16 @@ export default {
       const size = { md: "large", xl: "x-large" }[
         this.$vuetify.breakpoint.name
       ];
+      return size ? { [size]: true } : {};
+    },
+    sizeText() {
+      const size = {
+        xs: "subtitle-1",
+        sm: "text-h6",
+        md: "text-h5",
+        xl: "text-h4",
+      }[this.$vuetify.breakpoint.name];
+      console.log(size);
       return size ? { [size]: true } : {};
     },
   },
