@@ -3,65 +3,111 @@
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <v-row justify="center">
-            <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Preços</h1>
-              <h1 class="font-weight-light">Lorem ipsum dolor asimet!</h1>
-            </v-col>
-            <v-col
-              cols="12"
-              sm="6"
-              md="4"
-              class="text-center"
-              v-for="(plano, i) in planos"
-              :key="i"
-            >
-              <v-hover v-slot:default="{ hover }">
-                <v-card raised shaped :elevation="hover ? 10 : 4">
-                  <div class="header">
-                    <h1 class="font-weight-light pt-3">{{ plano.title }}</h1>
-                    <h1 class="text--lighten-2 display-1 font-weight-bold mt-3">
-                      {{ plano.price }}
-                    </h1>
-                  </div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 1440 320"
-                  >
-                    <path
-                      fill="#283e79"
-                      fill-opacity="1"
-                      d="M0,64L80,90.7C160,117,320,171,480,176C640,181,800,139,960,117.3C1120,96,1280,96,1360,96L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-                    ></path>
-                  </svg>
-
-                  <ul>
-                    <li
-                      v-for="(feature, j) in plano.features"
-                      :key="j"
-                      :class="sizeText"
+          <v-card style="width: 100%">
+            <h1 class="text-center pt-6 font-weight-light display-2">Planos</h1>
+            <v-divider class="my-6"></v-divider>
+            <v-row class="text-center">
+              <v-col class="col-12 col-sm-6 col-md-4">
+                <div class="flex-center">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1">
+                        <div class="circle2">
+                          <v-img src="~@/assets/img/paperplane.svg"></v-img>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Básico</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Limite de 1000 acessos diários</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 20,00</div>
+                    <v-btn
+                        v-bind="size"
+                        rounded
+                        outlined
+                        color="blue"
+                        class="mt-6"
                     >
-                      <p
-                        class="secondary--text mb-0 ml-3"
-                        style="text-align: start"
-                      >
-                        {{ feature.text }}
-                      </p>
-                    </li>
-                  </ul>
-                  <v-btn
-                    v-bind="size"
-                    rounded
-                    outlined
-                    color="#283e79"
-                    class="mt-3 mb-8"
-                  >
-                    Comprar agora
-                  </v-btn>
-                </v-card>
-              </v-hover>
-            </v-col>
-          </v-row>
+                      Comece Agora!
+                    </v-btn>
+                  </v-card-text>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
+                </div>
+                <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
+              </v-col>
+              <v-col class="col-12 col-sm-6 col-md-4">
+                <div class="flex-center">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1">
+                        <div class="circle2">
+                          <v-img src="~@/assets/img/airplane.svg"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Padrão</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Limite de 10000 acessos diários</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 100,00</div>
+                    <v-btn
+                        v-bind="size"
+                        rounded
+                        outlined
+                        color="blue"
+                        class="mt-6"
+                    >
+                      Comece Agora!
+                    </v-btn>
+                  </v-card-text>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
+                </div>
+                <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
+              </v-col>
+              <v-col class="col-12 col-md-4">
+                <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
+
+                <div class="flex-center">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1">
+                        <div class="circle2">
+                          <v-img src="~@/assets/img/aeroplane.svg"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Empresarial</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Acessos ilimitados</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div>
+                    <v-btn
+                        v-bind="size"
+                        rounded
+                        outlined
+                        color="blue"
+                        class="mt-6"
+                    >
+                      Comece Agora!
+                    </v-btn>
+                  </v-card-text>
+                </div>
+              </v-col>
+            </v-row>
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
@@ -77,13 +123,13 @@
         />
       </svg> -->
       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-        preserveAspectRatio="none"
-        fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          preserveAspectRatio="none"
+          fill="currentColor"
       >
         <path
-          d="M0,64L80,90.7C160,117,320,171,480,181.3C640,192,800,160,960,138.7C1120,117,1280,107,1360,101.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            d="M0,64L80,90.7C160,117,320,171,480,181.3C640,192,800,160,960,138.7C1120,117,1280,107,1360,101.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
         ></path>
       </svg>
     </div>
@@ -98,11 +144,13 @@ ul {
   line-height: 1.5em;
   margin: 5px 0 15px;
   padding: 0;
+
   li {
     list-style: none;
     position: relative;
     padding: 0 0 0 20px;
   }
+
   li {
     &::before {
       content: "";
@@ -126,6 +174,32 @@ ul {
   color: white;
 }
 
+.circle1 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: #f0f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle2 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0effc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .svg-border-rounded svg {
   position: absolute;
   bottom: 0;
@@ -142,9 +216,11 @@ ul {
 .content {
   z-index: 1;
 }
+
 svg {
   overflow: hidden;
 }
+
 section {
   position: relative;
 }
@@ -268,21 +344,11 @@ export default {
   }),
   computed: {
     size() {
-      const size = { md: "large", xl: "x-large" }[
-        this.$vuetify.breakpoint.name
-      ];
-      return size ? { [size]: true } : {};
-    },
-    sizeText() {
-      const size = {
-        xs: "subtitle-1",
-        sm: "text-h6",
-        md: "text-h5",
-        xl: "text-h4",
-      }[this.$vuetify.breakpoint.name];
-      console.log(size);
-      return size ? { [size]: true } : {};
-    },
+      const size = {md: "large", xl: "x-large"}[
+          this.$vuetify.breakpoint.name
+          ];
+      return size ? {[size]: true} : {};
+    }
   },
 };
 </script>

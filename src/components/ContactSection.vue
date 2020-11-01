@@ -22,10 +22,9 @@
               </h3>
             </v-col>
             <v-col cols="12" sm="7">
-              <v-form ref="form" v-model="valid" :lazy-validation="lazy">
+              <v-form @submit="onSubmit" ref="form" v-model="valid" :lazy-validation="lazy">
                 <v-text-field
                   v-model="name"
-                  :counter="10"
                   :rules="nameRules"
                   label="Nome"
                   required
@@ -52,6 +51,7 @@
                   rounded
                   block
                   class="mt-3"
+                  type="submit"
                 >
                   Enviar
                 </v-btn>
@@ -105,5 +105,12 @@ export default {
     ],
     lazy: false,
   }),
+  methods: {
+    onSubmit (e) {
+      //Código para enviar mensagens
+      console.log("teste")
+      e.preventDefault();
+    }
+  }
 };
 </script>

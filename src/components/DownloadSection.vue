@@ -14,7 +14,7 @@
                 animi quod laboriosam vel blanditiis labore alias, aliquid,
                 tempora repellendus non.
               </h1>
-              <v-btn rounded outlined large color="white" class="mt-4">
+              <v-btn rounded outlined href="https://github.com/Joabsonlg/Landing-Page" target="_blank" large color="white" class="mt-4">
                 <v-icon class="mr-2">
                   mdi-github
                 </v-icon>
