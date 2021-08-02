@@ -32,21 +32,20 @@ Compiles and minifies for production
 npm run build
 ```
 
-### 🛠️ Tecnologias
+### 🛠️ Technologies
 
 The following tools were used in the construction of the project:
 
 - [Vue.js](https://vuejs.org/)
 - [Vuetify.js](https://vuetifyjs.com/)
 - [Firebase](https://firebase.google.com/)
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/)
 
 ## ⚖️ Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## 👷‍♂️ Autor
+## 👷‍♂️ Author
 <a href="https://github.com/Joabsonlg">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/41306493?v=4" width="100px;" alt=""/>
  <br />
