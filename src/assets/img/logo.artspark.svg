@@ -1,0 +1,47 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" width="100" height="100">
+	<title>stock-logo</title>
+	<defs>
+		<linearGradient id="g1" x1="548.8" y1="1758" x2="548.8" y2="961.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fedd10"/>
+			<stop offset=".8" stop-color="#eb2227"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="548.8" y1="1758" x2="548.8" y2="961.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fedd10"/>
+			<stop offset=".8" stop-color="#eb2227"/>
+		</linearGradient>
+		<linearGradient id="g3" x1="651.2" y1="1616.3" x2="651.2" y2="446.7" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#059347"/>
+			<stop offset=".8" stop-color="#8cc541"/>
+		</linearGradient>
+		<linearGradient id="g4" x1="1027.1" y1="1357" x2="1027.1" y2="332.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fedd10"/>
+			<stop offset=".8" stop-color="#eb2227"/>
+		</linearGradient>
+		<linearGradient id="g5" x1="1063.6" y1="1737.2" x2="1063.6" y2="933.9" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#652f8f"/>
+			<stop offset=".9" stop-color="#eb2d7c"/>
+		</linearGradient>
+		<linearGradient id="g6" x1="824.2" y1="1518.9" x2="824.2" y2="933.9" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#1d76bb"/>
+			<stop offset=".8" stop-color="#652f8f"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1);stroke: #eb2227;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 28 } 
+		.s1 { fill: url(#g2);stroke: #eb2227;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 28 } 
+		.s2 { fill: url(#g3);stroke: #0d9647;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 28 } 
+		.s3 { fill: url(#g4);stroke: #eb2227;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 28 } 
+		.s4 { fill: url(#g5);stroke: #6b2f8e;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 28 } 
+		.s5 { fill: url(#g6);stroke: #652f8f;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 28 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m775.5 1539.5c-72.3-51.2-178.3-111.1-215.8-268.4q-30.7-128.4 42.1-309.9-8.2 104.4 17.7 206.2c25.9 101.7 119.7 192.9 209.2 234.4 89.6 41.6 189.5 98.4 229.6 187.9q40 89.7-103.3 168.3c4.7-103.4-69.7-140.7-179.5-218.5z"/>
+			<path id="&lt;Path&gt; copy" class="s1" d="m775.5 1539.5c-72.3-51.2-178.3-111.1-215.8-268.4q-30.7-128.4 42.1-309.9-8.2 104.4 17.7 206.2c25.9 101.7 119.7 192.9 209.2 234.4 89.6 41.6 189.5 98.4 229.6 187.9q40 89.7-103.3 168.3c4.7-103.4-69.7-140.7-179.5-218.5z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m1129.8 1616.3q100.3-221.2 26.5-383.5c-70.8-155.8-177.5-178.4-243.4-290.3q-70.6-119.7-57.8-182.5-110 99.7-110 314.1 0 214.1 208.4 315.1-316.6-43.3-299.7-432.3 14.3-328.2 297.4-510.2-45.5 304.7 93.7 448.7c223.5 231.3 292.4 461.6 84.9 720.9z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m1297.2 1357q35.9-209.4-70.8-355.2c-106.6-145.8-174.5-198-193.5-318.4q-29.4-185.8 147.3-351.2-95.4 192.3-0.5 339c134.1 207.7 208.6 367.2 117.5 685.8z"/>
+			<path id="&lt;Path&gt;" class="s4" d="m1396.8 1475.7q-99 206.3-331.4 261.5 151.4-90.6 254.4-324.9 116.1-264.5 44-478.4c60.5 123.7 132 335.4 33 541.8z"/>
+			<path id="&lt;Path&gt;" class="s5" d="m843.7 933.9q20.6 98.4 159.2 204.6c138.6 106.1 118 259.5 115 289q-2.9 29.5-29.4 91.4 20.9-63.7-58.9-148.3c-79.8-84.7-174.4-108.2-195.1-235.1q-20.7-126.8 9.2-201.6z"/>
+		</g>
+	</g>
+</svg>

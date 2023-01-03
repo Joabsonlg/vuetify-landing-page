@@ -5,7 +5,7 @@
       <home />
       <about />
       <download />
-      <pricing />
+      <portfolio />
       <contact />
     </v-main>
     <v-scale-transition>
@@ -42,7 +42,7 @@ import foote from "./components/Footer";
 import home from "./components/HomeSection";
 import about from "./components/AboutSection";
 import download from "./components/DownloadSection";
-import pricing from "./components/PricingSection";
+import portfolio from "./components/PortfolioSection";
 import contact from "./components/ContactSection";
 
 export default {
@@ -54,7 +54,7 @@ export default {
     home,
     about,
     download,
-    pricing,
+    portfolio,
     contact,
   },
 
