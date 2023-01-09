@@ -24,7 +24,7 @@ coalesced around EthDenver and SporkDAO.
                 How we do it
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
-              <div class="video d-flex align-center py-4">
+              <!-- div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">
                   <svg
                     version="1.1"
@@ -65,7 +65,7 @@ coalesced around EthDenver and SporkDAO.
                   </svg>
                 </a>
                 <p class="subheading ml-2 mb-0">Assista o vídeo</p>
-              </div>
+              </div -->
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
