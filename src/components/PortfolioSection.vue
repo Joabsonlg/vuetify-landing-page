@@ -7,7 +7,7 @@
             <h1 class="text-center pt-6 font-weight-light display-2">Portfolo</h1>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
-                                  <!-- Build Networks -->
+            <!-- Build Networks -->
               <v-col class="col-12 col-sm-6 col-md-4">
                 <div class="flex-center">
                   <v-card-text>
@@ -26,16 +26,6 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"><a href="https://discord.gg/artspark">Discord</a></div>
                     <v-divider class="my-2"/>
-                    <!-- div class="text-uppercase text-h4 mt-6 blue--text">R$ 20,00</div>
-                    <v-btn
-                        v-bind="size"
-                        rounded
-                        outlined
-                        color="blue"
-                        class="mt-6"
-                    >
-                      Comece Agora!
-                    </v-btn -->
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
@@ -157,9 +147,12 @@
                     <v-divider class="my-2"/>
 
                   </v-card-text>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
+
                 </div>
               </v-col>
               </v-row>
+
               <v-row class="text-center">
               <!-- Keyp -->
               <v-col class="col-12 col-md-4">
@@ -180,9 +173,10 @@
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/usekeyp">twitter</a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
+
                 </div>
-                <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
-              </v-col>
+               </v-col>
               <!-- Logos -->
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
@@ -202,8 +196,8 @@
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/0xlogos">twitter</a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
-                <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
               </v-col>
               <!-- VenturePunk -->
               <v-col class="col-12 col-md-4">
@@ -224,8 +218,8 @@
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/venture_punk">twitter</a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
-                <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
               </v-col>
 
              <!-- Illust.space -->
@@ -257,7 +251,7 @@
                       <div class="circle1">
                         <div class="circle2">
                           <v-img src="~@/assets/img/welook.logo.jpeg"/>
-                        </div>
+                        </div> 
                       </div>
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://welook.io/">Welook</a></div>
@@ -289,7 +283,6 @@
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/CafeValentine">twitter</a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
-                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
               </v-col>
               <!-- Next -->

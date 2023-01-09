@@ -1,15 +1,17 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/BufficornVFrame.png" height="677">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
+              <h1 class="display-3 font-weight-bold mb-4"><br/><br/></h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+<br/><br/>
+We believe that some of the best Web3/ Blockchain projects come from the ETHDenver community. 
+The difference between a team's success or failure can be effectively utilizing the community of communities 
+coalesced around EthDenver and SporkDAO. 
+
               </h1>
               <v-btn
                 rounded
@@ -19,7 +21,7 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                Saiba mais
+                How we do it
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
               <div class="video d-flex align-center py-4">
@@ -129,7 +131,7 @@
   </section>
 </template>
 
-<script>
+<!-- script>
 export default {
   data() {
     return {
@@ -183,7 +185,7 @@ export default {
     },
   },
 };
-</script>
+</script -->
 
 <style lang="scss">
 .circle {

@@ -5,58 +5,32 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
-              <h1 class="font-weight-light display-1">Contate-nos</h1>
+              <h1 class="font-weight-light display-1">Contact Us</h1>
               <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                explicabo commodi quisquam asperiores dolore ad enim provident
-                veniam perferendis voluptate, perspiciatis.
+                We are always looking for partners, potential portfolio companies, and community memebers.
               </h3>
               <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
-              </h3>
-              <h3 class="font-weight-light mt-3">
-                Telefone: +xx (xx) xxxxx-xxxx
+                Apply to <a href="https://ethden.page.link/apply">become a BV company</a>
               </h3>
               <h3 class="font-weight-light">
-                Email: email@email.com
+                Email us <a href="emailto:&#105;&#110;&#102;&#111;&#064;&#098;&#117;&#102;&#102;&#105;&#099;&#111;&#114;&#110;&#046;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;">&#105;&#110;&#102;&#111;&#064;&#098;&#117;&#102;&#102;&#105;&#099;&#111;&#114;&#110;&#046;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;</a>
+              </h3>
+              <h3 class="font-weight-light">
+                Signup for our mailing list:<a href="https://ethden.page.link/kmitl">Mailing List</a>
               </h3>
             </v-col>
-            <v-col cols="12" sm="7">
-              <v-form ref="form" v-model="valid" :lazy-validation="lazy">
-                <v-text-field
-                    v-model="name"
-                    :rules="nameRules"
-                    label="Nome"
-                    required
-                ></v-text-field>
+            <v-col cols="12" sm="5">
+              <h1 class="font-weight-light display-1">Become a BV Sponsor</h1>
+              <h3 class="font-weight-light mt-3">
+                Sponsorship via an <stong>Affiliate Membership</stong> may present advantages for funds, platforms, investment syndicates, and foreign nationals who cannot invest in funds directly.
+              </h3>
+              <h3 class="font-weight-light mt-3">
+                <a href="https://ethden.page.link/bvaffiliate">Become a BV Affiliate Member</a>
+              </h3>
 
-                <v-text-field
-                    v-model="email"
-                    :rules="emailRules"
-                    label="E-mail"
-                    required
-                ></v-text-field>
-
-                <v-textarea
-                    v-model="textArea"
-                    :rules="textAreaRules"
-                    label="Mensagem"
-                    required
-                />
-
-                <v-btn
-                    :disabled="!valid"
-                    color="primary"
-                    :dark="valid"
-                    rounded
-                    block
-                    class="mt-3"
-                    @click="submit"
-                >
-                  Enviar
-                </v-btn>
-              </v-form>
             </v-col>
+
+
           </v-row>
         </v-col>
       </v-row>

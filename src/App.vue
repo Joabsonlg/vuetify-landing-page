@@ -4,7 +4,7 @@
     <v-main class="pt-0">
       <home />
       <about />
-      <download />
+      <!-- download / -->
       <portfolio />
       <contact />
     </v-main>

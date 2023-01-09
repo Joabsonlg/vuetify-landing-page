@@ -49,7 +49,7 @@
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png" max-width="50px" />
+        <v-img src="@/assets/img/BV.png" max-width="440px" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
@@ -62,16 +62,16 @@
           <span class="mr-2">Home</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">Sobre</span>
+          <span class="mr-2">How</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#download')">
-          <span class="mr-2">Download</span>
-        </v-btn>
-        <v-btn text @click="$vuetify.goTo('#pricing')">
+        <v-btn text @click="$vuetify.goTo('#portfolio')">
           <span class="mr-2">Portfolio</span>
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
           <span class="mr-2">Contact Us</span>
+        </v-btn>
+        <v-btn rounded outlined text href="https://ethden.page.link/apply" target="_blank"> 
+          <span class="mr-2">Apply</span> 
         </v-btn>
       </div>
     </v-app-bar>
@@ -96,9 +96,9 @@ export default {
     isXs: false,
     items: [
       ["mdi-home-outline", "Home", "#hero"],
-      ["mdi-information-outline", "Sobre", "#features"],
+      ["mdi-information-outline", "About", "#features"],
       ["mdi-download-box-outline", "Download", "#download"],
-      ["mdi-currency-usd", "Portfolio", "#pricing"],
+      ["mdi-currency-usd", "Portfolio", "#portfolio"],
       ["mdi-email-outline", "Contact", "#contact"],
     ],
   }),
