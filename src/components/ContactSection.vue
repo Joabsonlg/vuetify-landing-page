@@ -13,7 +13,7 @@
                 Apply to <a href="https://ethden.page.link/apply">become a BV company</a>
               </h3>
               <h3 class="font-weight-light">
-                Email us <a href="emailto:&#105;&#110;&#102;&#111;&#064;&#098;&#117;&#102;&#102;&#105;&#099;&#111;&#114;&#110;&#046;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;">&#105;&#110;&#102;&#111;&#064;&#098;&#117;&#102;&#102;&#105;&#099;&#111;&#114;&#110;&#046;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;</a>
+                Email us <a href="emailto:info@bufficorn.ventures">&#105;&#110;&#102;&#111;&#064;&#098;&#117;&#102;&#102;&#105;&#099;&#111;&#114;&#110;&#046;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;</a>
               </h3>
               <h3 class="font-weight-light">
                 Signup for our mailing list:<a href="https://ethden.page.link/kmitl">Mailing List</a>
