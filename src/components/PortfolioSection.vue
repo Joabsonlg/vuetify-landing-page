@@ -249,9 +249,9 @@
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.illust.space/">Illust.space</a></div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.illust.space/">Illust</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">The World is Yours...</div>
+                    <div class="text-uppercase blue--text">Engaging digital communities in physical space through maps, blockchain, and AR</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/IllustSpace">
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
