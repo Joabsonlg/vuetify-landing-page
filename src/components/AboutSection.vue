@@ -61,10 +61,9 @@
                   </p>
                 </v-col>
                 <br/><br/>
-                <p class="text-justify">
-                Our community is made up of buidlers, users, customers, governments, platforms, protocols, funders, and the curious. They all have a part to play in helping PCs.
-                </p>
               </v-row>
+
+
             </v-col>
             <v-col cols="12" md="5" class="d-none d-md-flex">
               <v-img
@@ -74,6 +73,13 @@
               />
             </v-col>
           </v-row>
+          <v-row>
+                <v-col cols="12" class="d-flex align-center">
+                  <p class="text-justify">
+                  Our community is made up of buidlers, users, customers, governments, platforms, protocols, funders, and the curious. They all have a part to play in helping PCs.
+                  </p>
+                </v-col>
+              </v-row>
         </v-col>
       </v-row>
     </v-container>

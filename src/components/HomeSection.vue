@@ -3,8 +3,8 @@
     <v-parallax dark src="@/assets/img/BufficornVFrame.png" height="677">
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <v-row align="center" justify="center">
-            <v-col cols="12" md="6" xl="8">
+          <v-row align="center" justify="left">
+            <v-col cols="12" md="9" xl="11">
               <h1 class="display-3 font-weight-bold mb-4"><br/><br/></h1>
               <h1 class="font-weight-light">
 <br/><br/>

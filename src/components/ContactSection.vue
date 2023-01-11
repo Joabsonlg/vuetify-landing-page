@@ -4,26 +4,27 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row justify="center">
-            <v-col cols="12" sm="5">
+            <v-col cols="12" sm="6">
               <h1 class="font-weight-light display-1">Contact Us</h1>
-              <h3 class="font-weight-light mt-3">
+              <p class="font-weight-light mt-3">
                 We are always looking for partners, potential portfolio companies, and community memebers.
-              </h3>
-              <h3 class="font-weight-light mt-3">
+              </p>
+              <p class="font-weight-light mt-3">
                 Apply to <a href="https://ethden.page.link/apply">become a BV company</a>
-              </h3>
-              <h3 class="font-weight-light">
+              </p>
+              <p class="font-weight-light">
                 Email us <a href="emailto:info@bufficorn.ventures">&#105;&#110;&#102;&#111;&#064;&#098;&#117;&#102;&#102;&#105;&#099;&#111;&#114;&#110;&#046;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;</a>
-              </h3>
-              <h3 class="font-weight-light">
-                Signup for our mailing list:<a href="https://ethden.page.link/kmitl">Mailing List</a>
-              </h3>
+              </p>
+              <p class="font-weight-light">
+                Signup for our mailing list: <a href="https://ethden.page.link/kmitl">Mailing List</a>
+              </p>
             </v-col>
-            <v-col cols="12" sm="5">
-              <h1 class="font-weight-light display-1">Become a BV Sponsor</h1>
-              <h3 class="font-weight-light mt-3">
-                Sponsorship via an <stong>Affiliate Membership</stong> may present advantages for funds, platforms, investment syndicates, and foreign nationals who cannot invest in funds directly.
-              </h3>
+            <v-col cols="12" sm="4">
+              <h1 class="font-weight-light display-1">Sponsor BV</h1>
+              <p class="font-weight-light mt-3">
+                Become an <stong>Affiliate Membership</stong> without investing in BV.
+                <!-- may present advantages for funds, platforms, investment syndicates, and foreign nationals who cannot invest in funds directly. -->
+              </p>
               <h3 class="font-weight-light mt-3">
                 <a href="https://ethden.page.link/bvaffiliate">Become a BV Affiliate Member</a>
               </h3>
