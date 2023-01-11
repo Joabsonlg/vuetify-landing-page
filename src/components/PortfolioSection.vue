@@ -44,7 +44,7 @@
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.buildcities.network/">Build_Republic</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Community Networks and DAO Tooling</div>
+                    <div class="text-uppercase blue--text">We build cities based on shared values, collective ownership, and human flourishing.</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"><a href="https://discord.com/invite/XrxbdcCvn5">Discord</a></div>
                     <v-divider class="my-2"/>
