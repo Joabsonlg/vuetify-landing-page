@@ -71,7 +71,9 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Bringing Web3 to Banks and Credit unions</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/EthTrustCo">twitter</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/EthTrustCo">                        
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+</a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
   
@@ -94,7 +96,8 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">A credit line for every wallet.</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/humafinance">twitter</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/humafinance">                        <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+</a></div>
                     <v-divider class="my-2"/>
 
                   </v-card-text>
@@ -119,7 +122,8 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Code-free social activations and campaigns </div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/trysocialstack/">twitter</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/trysocialstack/">                        <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+</a></div>
                     <v-divider class="my-2"/>
 
                   </v-card-text>
@@ -143,7 +147,9 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Onboarding and community management</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/trysocialstack/">twitter</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/trysocialstack/">
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+                    </a></div>
                     <v-divider class="my-2"/>
 
                   </v-card-text>
@@ -170,7 +176,11 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Onboarding Web2 communites to Web3 seamlessly</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/usekeyp">twitter</a></div>
+                    <div class="text-uppercase blue--text">
+                      <a href="https://twitter.com/usekeyp">
+                        <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+                      </a>
+                    </div>
                     <v-divider class="my-2"/>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -193,7 +203,10 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Discover, connect, and thrive in the world of DAOs</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/0xlogos">twitter</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/0xlogos">
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+
+                    </a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -215,7 +228,10 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Web3 Product Studio</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/venture_punk">twitter</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/venture_punk">
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+
+                    </a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -237,7 +253,10 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">The World is Yours...</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/IllustSpace">twitter</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/IllustSpace">
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+
+                    </a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -258,7 +277,10 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Web3 Social platform, poaps, tickets, experience, IRL and Virtual</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/welook_io">twitter</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/welook_io">
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+
+                    </a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -280,7 +302,10 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Web3 Tokens, Fundraising, and engagement for IRL and Virtual Events</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/CafeValentine">twitter</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/CafeValentine">
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+
+                    </a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
                 </div>
