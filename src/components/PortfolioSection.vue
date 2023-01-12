@@ -4,7 +4,7 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%">
-            <h1 class="text-center pt-6 font-weight-light display-2">Portfolo</h1>
+            <h1 class="text-center pt-6 font-weight-light display-2">Portfolio</h1>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
             <!-- Build Networks -->

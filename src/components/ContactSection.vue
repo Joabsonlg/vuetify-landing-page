@@ -7,7 +7,7 @@
             <v-col cols="12" sm="6">
               <h1 class="font-weight-light display-1">Contact Us</h1>
               <p class="font-weight-light mt-3">
-                We are always looking for partners, potential portfolio companies, and community memebers.
+                We are always looking for partners, potential portfolio companies, and community members.
               </p>
               <p class="font-weight-light mt-3">
                 Apply to <a href="https://ethden.page.link/apply">become a BV company</a>
@@ -22,7 +22,7 @@
             <v-col cols="12" sm="4">
               <h1 class="font-weight-light display-1">Sponsor BV</h1>
               <p class="font-weight-light mt-3">
-                Become an <stong>Affiliate Membership</stong> without investing in BV.
+                Become an <stong>Affiliate Member</stong> without investing in BV.
                 <!-- may present advantages for funds, platforms, investment syndicates, and foreign nationals who cannot invest in funds directly. -->
               </p>
               <h3 class="font-weight-light mt-3">
