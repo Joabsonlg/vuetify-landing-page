@@ -7,30 +7,7 @@
             <h1 class="text-center pt-6 font-weight-light display-2">Portfolio</h1>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
-            <!-- Build Networks -->
-              <v-col class="col-12 col-sm-6 col-md-4">
-                <div class="flex-center">
-                  <v-card-text>
-                    <div class="flex-center">
-                      <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/logo.artspark.svg"></v-img>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://artspark.io">Art Spark</a></div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">AI Image Generation </div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"></div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://discord.gg/artspark">Discord</a></div>
-                    <v-divider class="my-2"/>
-                  </v-card-text>
-                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
-                </div>
-                <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
-              </v-col>
+       
                         <!-- Build Networks -->
               <v-col class="col-12 col-sm-6 col-md-4">
                 <div class="flex-center">
@@ -46,7 +23,9 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">We build cities based on shared values, collective ownership, and human flourishing.</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://discord.com/invite/XrxbdcCvn5">Discord</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/buildcities">                        
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+                      </a></div>
                     <v-divider class="my-2"/>
 
                   </v-card-text>
@@ -73,7 +52,7 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/EthTrustCo">                        
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
-</a></div>
+                      </a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
   
@@ -157,9 +136,7 @@
 
                 </div>
               </v-col>
-              </v-row>
-
-              <v-row class="text-center">
+             
               <!-- Keyp -->
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
@@ -187,6 +164,9 @@
 
                 </div>
                </v-col>
+              </v-row>
+
+<v-row class="text-center">
               <!-- Logos -->
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
@@ -308,7 +288,32 @@
                     </a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>                
                 </div>
+              </v-col>
+                   <!-- Art Spark -->
+                   <v-col class="col-12 col-sm-6 col-md-4">
+                <div class="flex-center">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1">
+                        <div class="circle2">
+                          <v-img src="~@/assets/img/logo.artspark.svg"></v-img>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://artspark.io">Art Spark</a></div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">AI Image Generation </div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text"></div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text"><a href="https://discord.gg/artspark">Discord</a></div>
+                    <v-divider class="my-2"/>
+                  </v-card-text>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
+                </div>
+                <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
               </v-col>
               <!-- Next -->
 
