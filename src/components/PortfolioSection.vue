@@ -13,7 +13,7 @@
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
-                      <div class="circle1">
+                      <div class="circle1a">
                         <div class="circle2">
                           <v-img src="~@/assets/img/build.white.logo.svg"/>
                         </div>
@@ -65,15 +65,15 @@
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
-                      <div class="circle1">
+                      <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/huma.logo.svg"/>
+                          <v-img src="~@/assets/img/Huma_Vertical.png"/>
                         </div>
                       </div>
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://huma.finance/">Huma Finance</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">A credit line for every wallet.</div>
+                    <div class="text-uppercase blue--text">Income backed DeFi for the 99%.</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/humafinance">                        <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
 </a></div>
@@ -223,7 +223,7 @@
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
-                      <div class="circle1">
+                      <div class="circle1a">
                         <div class="circle2">
                           <v-img src="~@/assets/img/illust.agency.logo.png"/>
                         </div>
@@ -391,6 +391,16 @@ ul {
   width: 150px;
   height: 150px;
   background-color: #f0f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle1a {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: #00060a;
   display: flex;
   align-items: center;
   justify-content: center;
