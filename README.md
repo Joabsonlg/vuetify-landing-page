@@ -56,3 +56,4 @@ Please make sure to update tests as appropriate.
 ## 🔑 License
 [MIT](https://github.com/Joabsonlg/vuetify-landing-page/blob/master/LICENSE)
 # landingPageTAManagement
+# landingPageTAManagement
