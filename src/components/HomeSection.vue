@@ -7,7 +7,7 @@
             <v-col cols="12" md="6" xl="8">
               <h1 class="display-2 font-weight-bold mb-4">Finde deinen neuen Traumjob</h1>
               <h1 class="font-weight-light">
-                Nur vier Fragen und schon geht's zu deinem neuen Traumjob <br />
+                Nur vier Fragen und schon geht's zu deinem neuen Traumjob!<br />
               </h1>
               <v-btn
                 rounded
