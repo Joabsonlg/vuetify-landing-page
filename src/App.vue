@@ -7,6 +7,8 @@
       <!-- download / -->
       <portfolio />
       <contact />
+      <investor />
+
     </v-main>
     <v-scale-transition>
       <v-btn
@@ -41,9 +43,12 @@ import navigation from "./components/Navigation";
 import foote from "./components/Footer";
 import home from "./components/HomeSection";
 import about from "./components/AboutSection";
-import download from "./components/DownloadSection";
+// import download from "./components/DownloadSection";
 import portfolio from "./components/PortfolioSection";
+import investor from "./components/InvestorSection";
 import contact from "./components/ContactSection";
+
+//import twitter from "./components/CalendarSection";
 
 export default {
   name: "App",
@@ -53,9 +58,10 @@ export default {
     foote,
     home,
     about,
-    download,
+    investor,
     portfolio,
-    contact,
+    contact
+    
   },
 
   data: () => ({

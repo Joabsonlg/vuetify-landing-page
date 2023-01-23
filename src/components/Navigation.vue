@@ -13,7 +13,7 @@
             <img src="@/assets/img/logo.png" alt="Logo" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="title">Calango</v-list-item-title>
+            <v-list-item-title class="title">BufficornVentures</v-list-item-title>
             <v-list-item-subtitle>WEB</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
@@ -58,16 +58,19 @@
         v-if="isXs"
       />
       <div v-else>
-        <v-btn text @click="$vuetify.goTo('#hero')">
+        <!-- v-btn text @click="$vuetify.goTo('#hero')">
           <span class="mr-2">Home</span>
-        </v-btn>
+        </v-btn -->
         <v-btn text @click="$vuetify.goTo('#features')">
           <span class="mr-2">How</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#portfolio')">
           <span class="mr-2">Portfolio</span>
         </v-btn>
-        <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
+        <v-btn text @click="$vuetify.goTo('#investor')">
+          <span class="mr-2">Participate</span>
+        </v-btn>
+        <v-btn text @click="$vuetify.goTo('#contact')">
           <span class="mr-2">Contact Us</span>
         </v-btn>
         <v-btn rounded outlined text href="https://ethden.page.link/apply" target="_blank"> 

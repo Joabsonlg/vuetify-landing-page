@@ -1,5 +1,5 @@
 <template>
-  <section id="about">
+  <section id="how">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -87,7 +87,7 @@
 </template>
 
 <style scoped>
-#about {
+#how {
   background-color: #f4f7f5;
 }
 </style>

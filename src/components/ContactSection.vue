@@ -19,20 +19,18 @@
                 Signup for our mailing list: <a href="https://ethden.page.link/kmitl">Mailing List</a>
               </p>
             </v-col>
-            <v-col cols="12" sm="4">
+            <!-- v-col cols="12" sm="6">
               <h1 class="font-weight-light display-1">Sponsor BV</h1>
               <p class="font-weight-light mt-3">
                 Become an <stong>Affiliate Member</stong> without investing in BV.
-                <!-- may present advantages for funds, platforms, investment syndicates, and foreign nationals who cannot invest in funds directly. -->
               </p>
               <h3 class="font-weight-light mt-3">
                 <a href="https://ethden.page.link/bvaffiliate">Become a BV Affiliate Member</a>
               </h3>
 
-            </v-col>
+            </v-col -->
+            </v-row>
 
-
-          </v-row>
         </v-col>
       </v-row>
     </v-container>
