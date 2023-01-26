@@ -13,13 +13,13 @@
           </v-row>
           <v-row align="center" justify="center">
             <v-col cols="6" sm="4" class="white--text text-center">
-                <a href="https://ethden.page.link/investBV" target="_new">
-                    <v-img src="@/assets/img/KingBuffi.png" class="d-block ml-auto mr-auto" max-width="250px" />
+                <a href="https://ethden.page.link/investBV" alt="Invest in Bufficorn Ventuers" target="_new">
+                    <v-img alt="Invest in Bufficorn Ventuers" src="@/assets/img/KingBuffi.png" class="d-block ml-auto mr-auto" max-width="250px" />
                 <p>Investors</p> </a>
             </v-col>
             <v-col cols="6" sm="4" class="white--text text-center">
-                <a href="https://ethden.page.link/bvaffiliate" target="_new">
-                    <v-img src="@/assets/img/BuffiTank.png" class="d-block ml-auto mr-auto" max-width="250px" />
+                <a href="https://ethden.page.link/bvaffiliate" alt="Join Bufficorn Ventures without investing" target="_new">
+                    <v-img alt="Invest in Bufficorn Ventuers"  src="@/assets/img/BuffiTank.png" class="d-block ml-auto mr-auto" max-width="250px" />
                 <p>Affiliate Members</p> </a>
             </v-col>
 

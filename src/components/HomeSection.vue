@@ -7,9 +7,8 @@
             <v-col cols="12" md="9" xl="11">
               <h1 class="display-3 font-weight-bold mb-4"><br/><br/></h1>
               <h1 class="font-weight-light">
-<br/><br/>
-We believe that some of the best Web3/ Blockchain projects come from the ETHDenver community. 
-The difference between a team's success or failure can be effectively utilizing the community of communities 
+Some of the best Web3/Blockchain projects have come from the ETHDenver community. 
+Our portfolio companies benefit from the global community of communities
 coalesced around EthDenver and SporkDAO. 
 
               </h1>
