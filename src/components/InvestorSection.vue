@@ -40,7 +40,6 @@
                         </a>
 
                     </div>
-                    <v-divider class="my-2"/>
                    
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
@@ -55,12 +54,11 @@
                       <a href="https://ethden.page.link/investBV">
 
                         <img src="~@/assets/img/KingBuffi.png" height="250px" />
-                        <br></br>
+                        <br/>
                         Invest
                         </a>
 
                     </div>
-                    <v-divider class="my-2"/>
                    
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
@@ -78,7 +76,6 @@
                         </a>
 
                     </div>
-                    <v-divider class="my-2"/>
                    
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
