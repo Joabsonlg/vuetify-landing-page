@@ -5,18 +5,27 @@
       <v-row alighn="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%">
-            <img height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_participate_sm.png"/>
+            <nobreak>
+            <img align="center" justify="left" height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_participate_sm.png"/>
               <v-btn 
               rounded
-                outlined
-                large
-                dark
+                outlined="true"
+                align="center"
+                alighn="center"
+                justify="right"
+                large="true"
+                dark="false"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSf8D4HZzDHLZtQ79_RVJk6PhisBupXK3GiMeVLlQRT5XlGToA/viewform?usp=sf_link" 
                 target="_blank"
                 class="mt-5"
+                absolute="true"
+                right="true"
+                color="pink"
               >
                 Learn More
               </v-btn>
+            </nobreak>
+
 
             <v-row class="text-center">
        

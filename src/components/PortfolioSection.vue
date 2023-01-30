@@ -121,24 +121,24 @@
   
                 </div>
               </v-col>
-              <!-- Tavern Keeper -->
+              <!-- Tavern Keeper / Yerba -->
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
                   <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
-                      <div class="circle1">
+                      <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/TKTrimmed.logo.png"/>
+                          <v-img src="~@/assets/img/Yerba.jpeg"/>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.gmtavernkeeper.com/">Tavern Keeper</a></div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.gmtavernkeeper.com/">Yerba</a></div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Onboarding and community management</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/trysocialstack/">
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/gm_tavernkeeper/">
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
                     </a></div>
                   </v-card-text>
