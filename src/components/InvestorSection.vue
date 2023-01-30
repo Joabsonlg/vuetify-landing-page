@@ -9,17 +9,16 @@
             <img align="center" justify="left" height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_participate_sm.png"/>
               <v-btn 
               rounded
-                outlined="true"
-                align="center"
+                outlined
                 alighn="center"
                 justify="right"
-                large="true"
-                dark="false"
+                large
+                dark
                 href="https://docs.google.com/forms/d/e/1FAIpQLSf8D4HZzDHLZtQ79_RVJk6PhisBupXK3GiMeVLlQRT5XlGToA/viewform?usp=sf_link" 
                 target="_blank"
                 class="mt-5"
-                absolute="true"
-                right="true"
+                absolute
+                right
                 color="pink"
               >
                 Learn More
@@ -35,7 +34,7 @@
                     <div class="flex-center" align="center" alighn="center">
          
                       <a href="https://ethden.page.link/apply">
-                        <img align="bottom" min-height="200px" height="250px" src="~@/assets/img/gwei.png"/>
+                        <img align="bottom" max-height="250px" src="~@/assets/img/gwei.png"/>
                         <br/>Apply
                         </a>
 
@@ -53,7 +52,7 @@
          
                       <a href="https://ethden.page.link/investBV">
 
-                        <img src="~@/assets/img/KingBuffi.png" height="250px" />
+                        <img src="~@/assets/img/KingBuffi.png" max-height="250px" />
                         <br/>
                         Invest
                         </a>
@@ -71,7 +70,7 @@
                     <div class="flex-center">
          
                       <a href="https://ethden.page.link/apply">
-                        <img src="~@/assets/img/BuffiTank.png" height="250px" />
+                        <img src="~@/assets/img/BuffiTank.png" max-height="250px" />
                         <br/>Sponsor
                         </a>
 
@@ -101,12 +100,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
+
 }
 
 #investor .container,
 #investor .row {
   height: 100%;
 }
+
+img {
+        width: auto;
+        height: auto;
+      }
 
 </style>

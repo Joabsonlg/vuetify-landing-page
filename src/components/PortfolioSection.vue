@@ -6,10 +6,10 @@
 
 
 
-          <v-card style="width: 100%" >
+          <v-card >
             <img height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_portfolio_sm.png"/>
             <v-divider class="my-6"></v-divider>
-            <v-row class="text-center">
+            <v-row class="text-center" justify="center">
        
                         <!-- Build Networks -->
               <v-col class="col-12 col-sm-6 col-md-4">
@@ -178,7 +178,7 @@
                </v-col>
               </v-row>
 
-<v-row class="text-center">
+<v-row class="text-center" justify="center"> 
               <!-- Logos -->
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
