@@ -6,15 +6,16 @@
 
 
 
-          <v-card style="width: 100%">
+          <v-card style="width: 100%" >
             <img height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_portfolio_sm.png"/>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
        
                         <!-- Build Networks -->
               <v-col class="col-12 col-sm-6 col-md-4">
-                <div class="flex-center" min-height: 150px;>
-                  <v-card-text>
+                <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
+                  <v-card-text height="100%">
                     <div class="flex-center">
                       <div class="circle1a">
                         <div class="circle2">
@@ -29,9 +30,10 @@
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/buildcities">                        
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
                       </a></div>
-                    <v-divider class="my-2"/>
+  
 
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -40,10 +42,11 @@
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
 
-                <div class="flex-center" >
-                  <v-card-text>
+                <div class="flex-center"  >
+                  <v-card min-height="400px" width="230px">
+                  <v-card-text >
                     <div class="flex-center" >
-                      <div class="circle1">
+                      <div class="circle1a">
                         <div class="circle2">
                           <v-img src="~@/assets/img/ethtrust.logo.png"/>
                         </div>
@@ -56,8 +59,8 @@
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/EthTrustCo">                        
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
                       </a></div>
-                    <v-divider class="my-2"/>
                   </v-card-text>
+                </v-card>
   
                 </div>
                 </v-col>
@@ -66,7 +69,8 @@
                 <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
-                  <v-card-text>
+                    <v-card min-height="400px" width="230px">
+                    <v-card-text>
                     <div class="flex-center">
                       <div class="circle1a">
                         <div class="circle2">
@@ -80,9 +84,10 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/humafinance">                        <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
 </a></div>
-                    <v-divider class="my-2"/>
+
 
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
   
                 </div>
@@ -92,23 +97,26 @@
                 <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/socialstack.logo.jpeg"/>
+                          <v-img src="~@/assets/img/values.jpeg"/>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.socialstack.co/">Social Stack</a></div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.values.co/">Values Co</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Code-free social activations and campaigns </div>
+                    <div class="text-uppercase blue--text">Earn rewards for changing the world</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/trysocialstack/">                        <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/values_co/">                        <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
 </a></div>
                     <v-divider class="my-2"/>
 
                   </v-card-text>
+                  </v-card>
+
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
   
                 </div>
@@ -117,6 +125,7 @@
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
@@ -132,9 +141,8 @@
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/trysocialstack/">
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
                     </a></div>
-                    <v-divider class="my-2"/>
-
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
 
                 </div>
@@ -144,6 +152,7 @@
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
@@ -154,15 +163,15 @@
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://usekeyp.com/">Keyp</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Onboarding Web2 communites to Web3 seamlessly</div>
+                    <div class="text-uppercase blue--text">Seamlessly Onboard Web2 users to Web3 </div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">
                       <a href="https://twitter.com/usekeyp">
                         <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
                       </a>
                     </div>
-                    <v-divider class="my-2"/>
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
 
                 </div>
@@ -174,6 +183,7 @@
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
@@ -190,8 +200,8 @@
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
 
                     </a></div>
-                    <v-divider class="my-2"/>
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
               </v-col>
@@ -199,6 +209,7 @@
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
@@ -215,8 +226,8 @@
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
 
                     </a></div>
-                    <v-divider class="my-2"/>
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
               </v-col>
@@ -224,6 +235,7 @@
              <!-- Illust.space -->
               <v-col class="col-12 col-md-4">
                 <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1a">
@@ -242,12 +254,14 @@
                     </a></div>
                     <v-divider class="my-2"/>
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
               </v-col>
          <!-- welook.io -->
          <v-col class="col-12 col-md-4">
                 <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
@@ -264,8 +278,8 @@
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
 
                     </a></div>
-                    <v-divider class="my-2"/>
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
               </v-col>
@@ -273,6 +287,7 @@
        <!-- NFTW -->
        <v-col class="col-12 col-md-4">
                 <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
@@ -290,14 +305,15 @@
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
 
                     </a></div>
-                    <v-divider class="my-2"/>
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>                
                 </div>
               </v-col>
                    <!-- Art Spark -->
-                   <v-col class="col-12 col-sm-6 col-md-4">
-                <div class="flex-center">
+                   <v-col class="col-12 col-sm-6 col-md-4" style="min-height: 400px;">
+                <div class="flex-center" >
+                  <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
@@ -308,13 +324,13 @@
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://artspark.io">Art Spark</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">AI Image Generation </div>
+                    <div class="text-uppercase blue--text" >AI Image Generation <br/> <br/></div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"></div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"><a href="https://discord.gg/artspark">Discord</a></div>
-                    <v-divider class="my-2"/>
                   </v-card-text>
+                  </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
@@ -449,6 +465,10 @@ svg {
 
 section {
   position: relative;
+}
+
+#div-txt { 
+  min-height: 400px; 
 }
 </style>
 
