@@ -45,6 +45,10 @@ export default {
         text: "mdi-linkedin",
         link: "https://www.linkedin.com/company/bufficorn-ventures",
       },
+      {
+        text: "mdi-mail",
+        link: "emailto:info@bufficorn.ventures",
+      },
 
     ],
   }),

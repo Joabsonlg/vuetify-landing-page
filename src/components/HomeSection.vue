@@ -12,7 +12,7 @@ Our portfolio companies benefit from the global community of communities
 coalesced around EthDenver and SporkDAO. 
 
               </h1>
-              <v-btn
+              <!-- v-btn
                 rounded
                 outlined
                 large
@@ -22,6 +22,17 @@ coalesced around EthDenver and SporkDAO.
               >
                 How we do it
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
+              </v-btn -->
+              <v-btn 
+              rounded
+                outlined
+                large
+                dark
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf8D4HZzDHLZtQ79_RVJk6PhisBupXK3GiMeVLlQRT5XlGToA/viewform?usp=sf_link" 
+                target="_blank"
+                class="mt-5"
+              >
+                Get our deck
               </v-btn>
               <!-- div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">

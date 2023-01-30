@@ -73,6 +73,9 @@
         <v-btn text @click="$vuetify.goTo('#contact')">
           <span class="mr-2">Contact Us</span>
         </v-btn>
+        <v-btn rounded outlined text href="https://docs.google.com/forms/d/e/1FAIpQLSf8D4HZzDHLZtQ79_RVJk6PhisBupXK3GiMeVLlQRT5XlGToA/viewform?usp=sf_link" target="_blank"> 
+          <span class="mr-2">Learn</span> 
+        </v-btn>
         <v-btn rounded outlined text href="https://ethden.page.link/apply" target="_blank"> 
           <span class="mr-2">Apply</span> 
         </v-btn>

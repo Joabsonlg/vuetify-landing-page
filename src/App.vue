@@ -6,7 +6,6 @@
       <about />
       <!-- download / -->
       <portfolio />
-      <contact />
       <investor />
 
     </v-main>
@@ -46,8 +45,7 @@ import about from "./components/AboutSection";
 // import download from "./components/DownloadSection";
 import portfolio from "./components/PortfolioSection";
 import investor from "./components/InvestorSection";
-import contact from "./components/ContactSection";
-
+//import contact from "./components/ContactSection";
 //import twitter from "./components/CalendarSection";
 
 export default {
@@ -59,8 +57,7 @@ export default {
     home,
     about,
     investor,
-    portfolio,
-    contact
+    portfolio
     
   },
 

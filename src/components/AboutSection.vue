@@ -5,7 +5,11 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
-              <h1 class="font-weight-light display-2">How</h1>
+              <h1 class="font-weight-light display-1 mb-3">
+              <div align="left" justify="left">
+              <img align="left" alighn="left" height="150px" max-height="175px" src="~@/assets/img/BuffiVentures_headers_how.png"/>
+            </div>
+            </h1>
               <h2 class="font-weight-light display-1 mb-3">
                 We help companies get from zero to one
               </h2>

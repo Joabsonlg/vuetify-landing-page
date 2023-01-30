@@ -3,14 +3,17 @@
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
+
+
+
           <v-card style="width: 100%">
-            <h1 class="text-center pt-6 font-weight-light display-2">Portfolio</h1>
+            <img height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_portfolio_sm.png"/>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
        
                         <!-- Build Networks -->
               <v-col class="col-12 col-sm-6 col-md-4">
-                <div class="flex-center">
+                <div class="flex-center" min-height: 150px;>
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1a">
@@ -37,9 +40,9 @@
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
 
-                <div class="flex-center">
+                <div class="flex-center" >
                   <v-card-text>
-                    <div class="flex-center">
+                    <div class="flex-center" >
                       <div class="circle1">
                         <div class="circle2">
                           <v-img src="~@/assets/img/ethtrust.logo.png"/>
@@ -274,15 +277,16 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle1">
-                          <h2 class="ml-3">NFTW</h2>
+                          <v-img src="~@/assets/img/NFTW-Logo.jpg"></v-img>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://newfrontierworks.com/">New FronTier Works</a></div>
+                    <div class="text--disabled text-uppercase text-h5 my-2">
+                      <a href="https://newfrontierworks.com/">New FronTier Works</a></div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Web3 Tokens, Fundraising, and engagement for IRL and Virtual Events</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/CafeValentine">
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/works_frontier">
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
 
                     </a></div>
