@@ -35,8 +35,8 @@
                     <div class="flex-center" align="center" alighn="center">
          
                       <a href="https://ethden.page.link/apply">
-                        <v-img align="bottom" min-height="200px" height="250px" src="~@/assets/img/gwei.png"/>
-                        Apply
+                        <img align="bottom" min-height="200px" height="250px" src="~@/assets/img/gwei.png"/>
+                        <br/>Apply
                         </a>
 
                     </div>
@@ -53,7 +53,9 @@
                     <div class="flex-center">
          
                       <a href="https://ethden.page.link/investBV">
-                        <v-img src="~@/assets/img/KingBuffi.png" min-height="250px" />
+
+                        <img src="~@/assets/img/KingBuffi.png" height="250px" />
+                        <br></br>
                         Invest
                         </a>
 
@@ -71,8 +73,8 @@
                     <div class="flex-center">
          
                       <a href="https://ethden.page.link/apply">
-                        <v-img src="~@/assets/img/BuffiTank.png" min-height="250px" />
-                        Sponsor
+                        <img src="~@/assets/img/BuffiTank.png" height="250px" />
+                        <br/>Sponsor
                         </a>
 
                     </div>
