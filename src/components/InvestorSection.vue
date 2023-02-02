@@ -4,10 +4,10 @@
 
       <v-row alighn="center" justify="center">
         <v-col cols="10">
-          <v-card style="width: 100%">
+          <v-card >
             <nobreak>
-            <img align="center" justify="left" height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_participate_sm.png"/>
-              <v-btn 
+            <img align="center" justify="left" height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_participate_sm.png" alt="participate header image"/>
+              <!-- v-btn 
               rounded
                 outlined
                 alighn="center"
@@ -22,19 +22,19 @@
                 color="pink"
               >
                 Learn More
-              </v-btn>
+              </v-btn -->
             </nobreak>
 
 
             <v-row class="text-center">
        
-              <v-col class="col-12 col-sm-6 col-md-4">
+              <v-col class="col-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center" align="center" alighn="center">
          
-                      <a href="https://ethden.page.link/apply">
-                        <img align="bottom" max-height="250px" src="~@/assets/img/gwei.png"/>
+                      <a href="https://ethden.page.link/apply" target="_blank">
+                        <img align="bottom" max-height="250px" alt="Pitch Us" src="~@/assets/img/gwei.png"/>
                         <br/>Pitch Us
                         </a>
 
@@ -45,7 +45,7 @@
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
               </v-col>
-              <v-col class="col-12 col-sm-6 col-md-4">
+              <!-- v-col class="col-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
@@ -54,7 +54,7 @@
 
                         <img src="~@/assets/img/KingBuffi.png" max-height="250px" />
                         <br/>
-                        Invest in BV
+                        Invest or Sponsor
                         </a>
 
                     </div>
@@ -63,15 +63,15 @@
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
-              </v-col>
-              <v-col class="col-12 col-sm-6 col-md-4">
+              </v-col -->
+              <v-col class="col-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
          
-                      <a href="https://ethden.page.link/apply">
-                        <img src="~@/assets/img/BuffiTank.png" max-height="250px" />
-                        <br/>Become an Affiliate
+                      <a href="https://ethden.page.link/BVlearn" target="_blank">
+                        <img src="~@/assets/img/BuffiTank.png" alt="Invest or Sponsor" max-height="270px" />
+                        <br/>Invest or Sponsor
                         </a>
 
                     </div>
@@ -80,7 +80,7 @@
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
-              </v-col>
+              </v-col -->
               
 
               </v-row>

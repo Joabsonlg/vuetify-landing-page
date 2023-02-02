@@ -6,9 +6,9 @@
           <v-row align="center" justify="left">
             <v-col cols="12" md="9" xl="11">
               <h1 class="font-weight-light">
-Some of the best Web3/Blockchain projects have come from the ETHDenver community. 
-Our portfolio companies benefit from the global community of communities
-coalesced around EthDenver and SporkDAO. 
+                Some of the most prolific Web3 projects have launched from the ETHDenver stage. 
+                As a Community of Communities investment DAO & incubator, we nurture pre-seed, post-hackathon projects. 
+                Early alpha is what we do. 
               </h1>
               <!-- v-btn
                 rounded

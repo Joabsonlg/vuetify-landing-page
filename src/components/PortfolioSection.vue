@@ -7,7 +7,7 @@
 
 
           <v-card >
-            <img height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_portfolio_sm.png"/>
+            <img height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_portfolio_sm.png" alt="portfolio header image"/>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center" justify="center">
        
@@ -19,7 +19,7 @@
                     <div class="flex-center">
                       <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/build.white.logo.svg"/>
+                          <v-img src="~@/assets/img/build.white.logo.svg" alt="Build_Republic Logo"/>
                         </div>
                       </div>
                     </div>
@@ -48,7 +48,7 @@
                     <div class="flex-center" >
                       <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/ethtrust.logo.png"/>
+                          <v-img src="~@/assets/img/ethtrust.logo.png" alt="EthTrust Logo" />
                         </div>
                       </div>
                     </div>
@@ -74,7 +74,7 @@
                     <div class="flex-center">
                       <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/Huma_Vertical.png"/>
+                          <v-img src="~@/assets/img/Huma_Vertical.png" alt="Huma Logo"/>
                         </div>
                       </div>
                     </div>
@@ -102,7 +102,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/values.jpeg"/>
+                          <v-img src="~@/assets/img/values.jpeg" alt="Values Logo"/>
                         </div>
                       </div>
                     </div>
@@ -130,7 +130,7 @@
                     <div class="flex-center">
                       <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/Yerba.jpeg"/>
+                          <v-img src="~@/assets/img/Yerba.jpeg" alt="Yerba Logo"/>
                         </div>
                       </div>
                     </div>
@@ -157,7 +157,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle1">
-                          <v-img src="~@/assets/img/keyp.logo.svg"/>
+                          <v-img src="~@/assets/img/keyp.logo.svg" alt="Keyp Logo"/>
                         </div>
                       </div>
                     </div>
@@ -188,7 +188,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/logos.logo.png"/>
+                          <v-img src="~@/assets/img/logos.logo.png" alt="Logos Logo"/>
                         </div>
                       </div>
                     </div>
@@ -214,7 +214,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/venture.punk.logo.jpeg"/>
+                          <v-img src="~@/assets/img/venture.punk.logo.jpeg" alt="Venture Punk Logo"/>
                         </div>
                       </div>
                     </div>
@@ -240,7 +240,7 @@
                     <div class="flex-center">
                       <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/illust.agency.logo.png"/>
+                          <v-img src="~@/assets/img/illust.agency.logo.png" alt="Illust Logo"/>
                         </div>
                       </div>
                     </div>
@@ -266,7 +266,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/welook.logo.jpeg"/>
+                          <v-img src="~@/assets/img/welook.logo.jpeg" alt="WeLook Logo"/>
                         </div> 
                       </div>
                     </div>
@@ -292,7 +292,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle1">
-                          <v-img src="~@/assets/img/NFTW-Logo.jpg"></v-img>
+                          <v-img src="~@/assets/img/NFTW-Logo.jpg" alt="NFTW Logo"></v-img>
                         </div>
                       </div>
                     </div>
@@ -318,7 +318,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/logo.artspark.svg"></v-img>
+                          <v-img src="~@/assets/img/logo.artspark.svg" alt="Art Spark Logo"></v-img>
                         </div>
                       </div>
                     </div>
