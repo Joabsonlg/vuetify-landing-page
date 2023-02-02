@@ -35,7 +35,7 @@
          
                       <a href="https://ethden.page.link/apply">
                         <img align="bottom" max-height="250px" src="~@/assets/img/gwei.png"/>
-                        <br/>Apply
+                        <br/>Pitch Us
                         </a>
 
                     </div>
@@ -54,7 +54,7 @@
 
                         <img src="~@/assets/img/KingBuffi.png" max-height="250px" />
                         <br/>
-                        Invest
+                        Invest in BV
                         </a>
 
                     </div>
@@ -71,7 +71,7 @@
          
                       <a href="https://ethden.page.link/apply">
                         <img src="~@/assets/img/BuffiTank.png" max-height="250px" />
-                        <br/>Sponsor
+                        <br/>Become an Affiliate
                         </a>
 
                     </div>

@@ -1,16 +1,14 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/BufficornVFrame.png" height="677">
+    <v-parallax dark src="@/assets/img/BufficornVFrame.png" justify="bottom" height="500">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="left">
             <v-col cols="12" md="9" xl="11">
-              <h1 class="display-3 font-weight-bold mb-4"><br/><br/></h1>
               <h1 class="font-weight-light">
 Some of the best Web3/Blockchain projects have come from the ETHDenver community. 
 Our portfolio companies benefit from the global community of communities
 coalesced around EthDenver and SporkDAO. 
-
               </h1>
               <!-- v-btn
                 rounded

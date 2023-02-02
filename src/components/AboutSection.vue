@@ -67,7 +67,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Collaborate on our PC's behalf with state and municipal government to deploy pilots.
+                    Collaborate on our PortCo's behalf with industry, state, and municipal government to deploy pilots.
                   </p>
                 </v-col>
                 <br/><br/>
@@ -77,16 +77,16 @@
             </v-col>
             <v-col cols="12" md="5" class="d-none d-md-flex">
               <v-img
-                src="@/assets/img/KingBuffi.png"
+                src="@/assets/img/Gold_Sporke_2023.png"
                 class="d-block ml-auto mr-auto"
-                max-width="400px"
+                max-width="300px"
               />
             </v-col>
           </v-row>
           <v-row>
                 <v-col cols="12" class="d-flex align-center">
                   <p class="text-justify">
-                  Our community is made up of buidlers, users, customers, governments, platforms, protocols, funders, and the curious. They all have a part to play in helping PCs.
+                  Our community is made up of buidlers, users, customers, governments, platforms, protocols, funders, and the curious. They all have a part to play in helping portfolio companies.
                   </p>
                 </v-col>
               </v-row>
