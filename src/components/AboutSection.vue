@@ -27,8 +27,8 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Identify, plug in, support, and incubate teams who have the potential to positively impact the Web3 landscape, innovate business, and contribute to Web3 common goods.
-                  </p>
+                    Identify high performing teams who align with Web3 Community ethos and goals
+                 </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
                   <v-img
@@ -47,7 +47,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Work with teams who agree to work full-time in the Web3 space on their project for 6 - 12 months, depending on funding level and milestones.
+                    Work only with teams who are committed to “full-time” on their project for 6 - 12 months
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -57,8 +57,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Leverage the EthDenver/ SporkDAO ecosystem to remove obstacles, find partnership opportunities, provide outreach assistance, and other services.
-                  </p>
+                    Incubate via the EthDenver/SporkDAO community of communities                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
                   <v-img
@@ -67,8 +66,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Collaborate on our PortCo's behalf with industry, state, and municipal government to deploy pilots.
-                  </p>
+                    Technical mentoring, removal of obstacles, strategic partnerships, investor introductions, & more.                  </p>
                 </v-col>
                 <br/><br/>
               </v-row>
@@ -86,7 +84,8 @@
           <v-row>
                 <v-col cols="12" class="d-flex align-center">
                   <p class="text-justify">
-                  Our community is made up of buidlers, users, customers, governments, platforms, protocols, funders, and the curious. They all have a part to play in helping portfolio companies.
+                    The SporkDAO Community of Communities is made up of over 100,000 ETHDenver attendees who are #BUIDLers, Bufficorns, founders, cypherpunks, solarpunks, investors, students, users, customers, governments, educators, platforms, protocols, and the curious. 
+                    All stakeholders have incentive in helping Bufficorn Ventures portfolio companies succeed!
                   </p>
                 </v-col>
               </v-row>
