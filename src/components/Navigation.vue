@@ -61,24 +61,24 @@
         <!-- v-btn text @click="$vuetify.goTo('#hero')">
           <span class="mr-2">Home</span>
         </v-btn -->
-        <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">How</span>
+        <v-btn ripple color="deep-purple " text @click="$vuetify.goTo('#features')">
+          <span class="font-weight-bold" >How</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#portfolio')">
-          <span class="mr-2">Portfolio</span>
+        <v-btn color="deep-purple " text @click="$vuetify.goTo('#portfolio')">
+          <span class="font-weight-bold">Portfolio</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#investor')">
-          <span class="mr-2">Participate</span>
+        <v-btn color="deep-purple " text @click="$vuetify.goTo('#investor')">
+          <span class="font-weight-bold">Participate</span>
         </v-btn>
-        <v-btn text href="https://www.ethdenver.com/festival/bv-lounge" target="_blank"> 
-          <span class="mr-2">@ETHDenver</span> 
+        <v-btn color="deep-purple " text href="https://www.ethdenver.com/festival/bv-lounge" target="_blank"> 
+          <span class="font-weight-bold ">@ETHDenver</span> 
         </v-btn>
 
-        <v-btn rounded outlined text href="https://ethden.page.link/BVlearn" target="_blank"> 
-          <span class="mr-2">Our Deck</span> 
+        <v-btn rounded outlined color="deep-purple " text href="https://ethden.page.link/BVlearn" target="_blank"> 
+          <span class="font-weight-bold ">Our Deck</span> 
         </v-btn>
-        <v-btn rounded outlined text href="https://ethden.page.link/apply" target="_blank"> 
-          <span class="mr-2">Apply</span>
+        <v-btn rounded outlined color="deep-purple " text href="https://ethden.page.link/apply" target="_blank"> 
+          <span class="mr-2 display-0">Get $</span>
         </v-btn>
       </div>
     </v-app-bar>

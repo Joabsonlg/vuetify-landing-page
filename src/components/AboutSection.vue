@@ -11,14 +11,14 @@
                 </div>
               </h1>
               <h2 class="font-weight-light display-1 mb-3">
-                We help companies get from zero to one
+                We help projects get from zero to one
               </h2>
               </v-col>
           </v-row>
           <v-row align="left" justify="left" class="font-weight-bold">
                 <v-col cols="12" class="d-flex align-center">
                   <p class="text-justify" >
-                    The SporkDAO Community of Communities is made up of over 100,000 ETHDenver attendees who are #BUIDLers, Bufficorns, founders, cypherpunks, solarpunks, investors, students, users, customers, governments, educators, platforms, protocols, and the curious. 
+                    The SporkDAO Community of Communities consists of over 100,000 ETHDenver attendees who are #BUIDLers, Bufficorns, founders, cypherpunks, solarpunks, investors, students, users, customers, educators, platforms, protocols, and the curious. 
                     All stakeholders have incentive in helping Bufficorn Ventures portfolio companies succeed!
                   </p>
                 </v-col>
@@ -44,7 +44,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Provide between $25,000 and $150,000 in funding in exchange for 2 - 6% interest in our portfolio companies.
+                    Provide between $25,000 and $150,000 in funding in exchange for 2 - 6% interest
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -54,7 +54,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Work only with teams who are committed to “full-time” on their project for 6 - 12 months
+                    Work only with teams committed to “full-time” on their project for 6 - 12 months
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -73,7 +73,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Technical mentoring, removal of obstacles, strategic partnerships, investor introductions, & more.                  </p>
+                    Technical mentoring, strategic partnerships, investor introductions, & more                </p>
                 </v-col>
                 <br/><br/>
               </v-row>
