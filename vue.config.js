@@ -6,7 +6,7 @@ module.exports = {
     index: {
       // entry for the page
       entry: 'src/main.js',
-      title: 'Bufficorn Ventures: SporkDAO Investment',
+      title: 'Bufficorn Ventures',
     },
   }
 }
