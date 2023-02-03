@@ -10,7 +10,7 @@
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
-            <img src="@/assets/img/logo.png" alt="Logo" />
+            <img src="@/assets/img/KingBuffi.png" alt="Logo" />
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title class="title">BufficornVentures</v-list-item-title>
@@ -70,11 +70,8 @@
         <v-btn text @click="$vuetify.goTo('#investor')">
           <span class="mr-2">Participate</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">Contact Us</span>
-        </v-btn>
         <v-btn text href="https://www.ethdenver.com/festival/bv-lounge" target="_blank"> 
-          <span class="mr-2">ETHDenver</span> 
+          <span class="mr-2">@ETHDenver</span> 
         </v-btn>
 
         <v-btn rounded outlined text href="https://ethden.page.link/BVlearn" target="_blank"> 
@@ -109,7 +106,6 @@ export default {
       ["mdi-information-outline", "About", "#features"],
       ["mdi-download-box-outline", "Download", "#download"],
       ["mdi-currency-usd", "Portfolio", "#portfolio"],
-      ["mdi-email-outline", "Contact", "#contact"],
     ],
   }),
   props: {

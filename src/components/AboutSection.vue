@@ -15,8 +15,15 @@
               </h2>
               </v-col>
           </v-row>
-          
-          <v-row align="center" justify="center">
+          <v-row align="left" justify="left" class="font-weight-bold">
+                <v-col cols="12" class="d-flex align-center">
+                  <p class="text-justify" >
+                    The SporkDAO Community of Communities is made up of over 100,000 ETHDenver attendees who are #BUIDLers, Bufficorns, founders, cypherpunks, solarpunks, investors, students, users, customers, governments, educators, platforms, protocols, and the curious. 
+                    All stakeholders have incentive in helping Bufficorn Ventures portfolio companies succeed!
+                  </p>
+                </v-col>
+              </v-row>
+          <v-row align="left" justify="left">
             <v-col cols="12" md="7">
 
               <v-row>
@@ -81,14 +88,6 @@
               />
             </v-col>
           </v-row>
-          <v-row>
-                <v-col cols="12" class="d-flex align-center">
-                  <p class="text-justify">
-                    The SporkDAO Community of Communities is made up of over 100,000 ETHDenver attendees who are #BUIDLers, Bufficorns, founders, cypherpunks, solarpunks, investors, students, users, customers, governments, educators, platforms, protocols, and the curious. 
-                    All stakeholders have incentive in helping Bufficorn Ventures portfolio companies succeed!
-                  </p>
-                </v-col>
-              </v-row>
         </v-col>
       </v-row>
     </v-container>

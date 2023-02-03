@@ -1,32 +1,22 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/BufficornVFrame.png" justify="bottom" height="500">
+    <v-parallax dark src="@/assets/img/BufficornVFrame.png" justify="bottom" height="600">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="left">
-            <v-col cols="12" md="9" xl="11">
-              <h1 class="font-weight-light">
-                Some of the most prolific Web3 projects have launched from the ETHDenver stage. 
+            <v-col cols="11" md="8" xl="11">
+              <h1 class="font-weight-bold">
+                <br/><br/>  Some of the most prolific Web3 projects have launched from the ETHDenver stage. 
                 As a Community of Communities investment DAO & incubator, we nurture pre-seed, post-hackathon projects. 
-                Early alpha is what we do. 
+                <br/><br/>Early alpha is what we do. 
               </h1>
-              <!-- v-btn
-                rounded
-                outlined
-                large
-                dark
-                @click="$vuetify.goTo('#features')"
-                class="mt-5"
-              >
-                How we do it
-                <v-icon class="ml-2">mdi-arrow-down</v-icon>
-              </v-btn -->
+
               <v-btn 
               rounded
                 outlined
                 large
                 dark
-                href="https://docs.google.com/forms/d/e/1FAIpQLSf8D4HZzDHLZtQ79_RVJk6PhisBupXK3GiMeVLlQRT5XlGToA/viewform?usp=sf_link" 
+                href="https://ethden.page.link/BVlearn" 
                 target="_blank"
                 class="mt-5"
               >
@@ -87,12 +77,6 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="space-around">
-            <!-- <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Title</h1>
-              <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </h1>
-            </v-col> -->
             <v-col
               cols="12"
               sm="4"

@@ -28,7 +28,7 @@
 
             <v-row class="text-center">
        
-              <v-col class="col-6">
+              <!-- v-col class="col-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center" align="center" alighn="center">
@@ -44,17 +44,17 @@
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
-              </v-col>
-              <!-- v-col class="col-6">
+              </v-col --> 
+              <v-col class="col-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
          
-                      <a href="https://ethden.page.link/investBV">
+                      <a href="https://ethden.page.link/investBV" target="_blank">
 
                         <img src="~@/assets/img/KingBuffi.png" max-height="250px" />
                         <br/>
-                        Invest or Sponsor
+                        Invest in BV
                         </a>
 
                     </div>
@@ -63,15 +63,15 @@
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
-              </v-col -->
+              </v-col>
               <v-col class="col-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
          
-                      <a href="https://ethden.page.link/BVlearn" target="_blank">
+                      <a href="https://ethden.page.link/bvaffiliate" target="_blank">
                         <img src="~@/assets/img/BuffiTank.png" alt="Invest or Sponsor" max-height="270px" />
-                        <br/>Invest or Sponsor
+                        <br/>Become an Affiliate Member
                         </a>
 
                     </div>
