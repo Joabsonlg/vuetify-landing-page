@@ -1,6 +1,6 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/BufficornVFrame.png" justify="bottom" height="600">
+    <v-parallax dark src="@/assets/img/BufficornVFrame.png" justify="bottom" height="550">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="left">
@@ -20,7 +20,7 @@
                 target="_blank"
                 class="mt-5"
               >
-                Get our deck
+                Get BV deck
               </v-btn>
               <!-- div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">

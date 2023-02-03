@@ -15,7 +15,7 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        Supporting the <a href="https://sporkdao.org">SporkDAO</a> community.
+        A member of the <a href="https://sporkdao.org">SporkDAO</a> community.
       </v-card-text>
 
       <v-divider></v-divider>
