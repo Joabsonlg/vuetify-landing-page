@@ -1,6 +1,6 @@
-# Vuetify Landing Page Template
+# Spork Staker Official DAPP
 
-#### This is an example of a landing page built with vue and vuetify.
+#### This is the Spork Staker App
 
 
 ## 🚀 Project setup
@@ -8,11 +8,11 @@
 Use [git](https://git-scm.com/) to clone the project.
 
 ```bash
-git clone https://github.com/Joabsonlg/vuetify-landing-page.git
+git clone https://github.com/SporkDAOOfficial/bufficorn-ventures-site.git
 ```
 Enter the project.
 ```bash
-cd vuetify-landing-page
+cd bufficorn-ventures-site
 ```
 Use [npm](https://www.npmjs.com/) to install dependencies.
 ```bash
@@ -45,7 +45,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## 👷‍♂️ Author
+## 👷‍♂️ Original Author
 <a href="https://github.com/Joabsonlg">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/41306493?v=4" width="100px;" alt=""/>
  <br />
