@@ -344,12 +344,12 @@
                     <div class="flex-center">
                       <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/SPlogo.png" alt="Studio.Page Logo"></v-img>
+                          <v-img src="~@/assets/img/SPlogo.png" alt="Split.Social Logo"></v-img>
                         </div>
                       </div>
                     </div>
     
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://studio.page">Studio.page</a></div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://split.social">Studio.page</a></div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text" >Put Your Money Where Your Views Are <br/> <br/></div>
                     <v-divider class="my-2"/>
@@ -371,7 +371,7 @@
                     <div class="flex-center">
                       <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="https://ibb.co/JvSjwp9" alt="SmartFunds Logo"/>
+                          <v-img src="https://smartfunds.xyz/images/e82a5db032460b3e63209b5ce5db01ea.png" alt="SmartFunds Logo"/>
                         </div> 
                       </div>
                     </div>
