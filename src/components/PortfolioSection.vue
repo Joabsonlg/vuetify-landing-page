@@ -350,7 +350,7 @@
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://split.social">Studio.page</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text" >Put Your Money Where Your Views Are <br/> <br/></div>
+                    <div class="text-uppercase blue--text" >Get Your Money Where Your Views Are!<br/> <br/></div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"></div>
                     <v-divider class="my-2"/>
