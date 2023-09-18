@@ -4,8 +4,6 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
 
-
-
           <v-card >
             <img height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_portfolio_sm.png" alt="portfolio header image"/>
             <v-divider class="my-6"></v-divider>
@@ -178,7 +176,7 @@
                </v-col>
               </v-row>
 
-<v-row class="text-center" justify="center"> 
+            <v-row class="text-center" justify="center"> 
               <!-- Logos -->
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
@@ -272,7 +270,7 @@
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://welook.io/">Welook</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Web3 Social platform, poaps, tickets, experience, IRL and Virtual</div>
+                    <div class="text-uppercase blue--text">Web3 Social platform, stickets, tickets, experience, IRL and Virtual</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/welook_io">
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
@@ -317,7 +315,7 @@
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
-                        <div class="circle2">
+                        <div class="circle1">
                           <v-img src="https://app.0xkyc.id/img/icons/new-logo.png" alt="0xKYC Logo"></v-img>
                         </div>
                       </div>
