@@ -369,7 +369,7 @@
                   <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
-                      <div class="circle1">
+                      <div class="circle1a">
                         <div class="circle2">
                           <v-img src="https://ibb.co/JvSjwp9" alt="SmartFunds Logo"/>
                         </div> 
