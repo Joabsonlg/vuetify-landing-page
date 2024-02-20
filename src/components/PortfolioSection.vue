@@ -4,8 +4,6 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
 
-
-
           <v-card >
             <img height="150px" max-height="200px" src="~@/assets/img/BuffiVentures_headers_portfolio_sm.png" alt="portfolio header image"/>
             <v-divider class="my-6"></v-divider>
@@ -38,34 +36,9 @@
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
               </v-col>
-              <!-- ETHTrust -->
-              <v-col class="col-12 col-md-4">
-                <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
 
-                <div class="flex-center"  >
-                  <v-card min-height="400px" width="230px">
-                  <v-card-text >
-                    <div class="flex-center" >
-                      <div class="circle1a">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/ethtrust.logo.png" alt="EthTrust Logo" />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.ethtrust.co/">ETHTrust</a></div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Bringing Web3 to Banks and Credit unions</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/EthTrustCo">                        
-                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
-                      </a></div>
-                  </v-card-text>
-                </v-card>
-  
-                </div>
-                </v-col>
 
-                <!-- Humna Finance -->
+                <!-- Huma Finance -->
                 <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
@@ -148,7 +121,7 @@
                 </div>
               </v-col>
              
-              <!-- Keyp -->
+              <!-- Keyp /OpenDollar -->
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
@@ -157,16 +130,16 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle1">
-                          <v-img src="~@/assets/img/keyp.logo.svg" alt="Keyp Logo"/>
+                          <v-img src="~@/assets/img/OpenDollar.svg" alt="OpenDollar Logo"/>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://usekeyp.com/">Keyp</a></div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://opendollar.com/">OpenDollar</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Seamlessly Onboard Web2 users to Web3 </div>
+                    <div class="text-uppercase blue--text">Leverage your liquid staking tokens </div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">
-                      <a href="https://twitter.com/usekeyp">
+                      <a href="https://twitter.com/open_dollar">
                         <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
                       </a>
                     </div>
@@ -178,7 +151,7 @@
                </v-col>
               </v-row>
 
-<v-row class="text-center" justify="center"> 
+            <v-row class="text-center" justify="center"> 
               <!-- Logos -->
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
@@ -272,7 +245,7 @@
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://welook.io/">Welook</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Web3 Social platform, poaps, tickets, experience, IRL and Virtual</div>
+                    <div class="text-uppercase blue--text">Web3 Social platform, stickets, tickets, experience, IRL and Virtual</div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"><a href="https://twitter.com/welook_io">
                       <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
@@ -310,30 +283,108 @@
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>                
                 </div>
               </v-col>
-                   <!-- Art Spark -->
-                   <v-col class="col-12 col-sm-6 col-md-4" style="min-height: 400px;">
+                   <!-- 0xKYC  -->
+              <v-col class="col-12 col-sm-6 col-md-4" style="min-height: 400px;">
                 <div class="flex-center" >
                   <v-card min-height="400px" width="230px">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/logo.artspark.svg" alt="Art Spark Logo"></v-img>
+                        <div class="circle1">
+                          <v-img src="https://app.0xkyc.id/img/icons/oxKYC-logo.png" alt="0xKYC Logo"></v-img>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://artspark.io">Art Spark</a></div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://app.0xkyc.id/">0xKYC</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text" >AI Image Generation <br/> <br/></div>
+                    <div class="text-uppercase blue--text" >Constructing a trusted identity verification system to elevate security in the digital sphere. <br/> <br/></div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text"></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://discord.gg/artspark">Discord</a></div>
+                    <div class="text-uppercase blue--text"><a href="https://discord.com/invite/p58hBne2Ue">Discord</a></div>
                   </v-card-text>
                   </v-card>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
+              </v-col>
+              <!-- Next -->
+              <!-- Studio Page -->
+              <v-col class="col-12 col-sm-6 col-md-4" style="min-height: 400px;">
+                <div class="flex-center" >
+                  <v-card min-height="400px" width="230px">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1a">
+                        <div class="circle2">
+                          <v-img src="~@/assets/img/SPlogo.png" alt="Split.Social Logo"></v-img>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://split.social">Split.social</a></div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text" >Get Your Money Where Your Views Are!<br/> <br/></div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text"></div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text"><a href="https://discord.com/invite/S4sAgaNUb8">Discord</a></div>
+                  </v-card-text>
+                  </v-card>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
+                </div>
+                <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
+              </v-col>
+              <!-- Next -->
+              <!-- SmartFunds -->
+              <v-col class="col-12 col-md-4">
+                <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1a">
+                        <div class="circle2">
+                          <v-img src="~@/assets/img/smartFunds.logo.png" alt="SmartFunds Logo"/>
+                        </div> 
+                      </div>
+                    </div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://smartfunds.xyz/">SmartFunds</a></div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">The infrastructure that democratizes access to financial services</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/_SmartFunds_">
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+
+                    </a></div>
+                  </v-card-text>
+                  </v-card>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
+                </div>
+              </v-col>
+              <!-- Next -->
+               <!-- Blockade -->
+               <v-col class="col-12 col-md-4">
+                <div class="flex-center">
+                  <v-card min-height="400px" width="230px">
+                  <v-card-text>
+                    <div class="flex-center">
+                      <div class="circle1a">
+                        <div class="circle2">
+                          <v-img src="https://www.blockadelabs.com/assets/images/logo.svg" alt="Blockade Labs Logo"/>
+                        </div> 
+                      </div>
+                    </div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.blockadelabs.com/">Blockade Labs</a></div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text">The leading tool for 3D environment creation.</div>
+                    <v-divider class="my-2"/>
+                    <div class="text-uppercase blue--text"><a href="https://twitter.com/BlockadeLabs">
+                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
+
+                    </a></div>
+                  </v-card-text>
+                  </v-card>
+                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
+                </div>
               </v-col>
               <!-- Next -->
 
