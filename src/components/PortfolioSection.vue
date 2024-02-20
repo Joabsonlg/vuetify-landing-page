@@ -36,34 +36,9 @@
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
               </v-col>
-              <!-- ETHTrust -->
-              <v-col class="col-12 col-md-4">
-                <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
 
-                <div class="flex-center"  >
-                  <v-card min-height="400px" width="230px">
-                  <v-card-text >
-                    <div class="flex-center" >
-                      <div class="circle1a">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/ethtrust.logo.png" alt="EthTrust Logo" />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://www.ethtrust.co/">ETHTrust</a></div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Bringing Web3 to Banks and Credit unions</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text"><a href="https://twitter.com/EthTrustCo">                        
-                      <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
-                      </a></div>
-                  </v-card-text>
-                </v-card>
-  
-                </div>
-                </v-col>
 
-                <!-- Humna Finance -->
+                <!-- Huma Finance -->
                 <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
@@ -146,7 +121,7 @@
                 </div>
               </v-col>
              
-              <!-- Keyp -->
+              <!-- Keyp /OpenDollar -->
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
                 <div class="flex-center">
@@ -155,16 +130,16 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle1">
-                          <v-img src="~@/assets/img/keyp.logo.svg" alt="Keyp Logo"/>
+                          <v-img src="~@/assets/img/OpenDollar.svg" alt="OpenDollar Logo"/>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://usekeyp.com/">Keyp</a></div>
+                    <div class="text--disabled text-uppercase text-h5 my-2"><a href="https://opendollar.com/">OpenDollar</a></div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Seamlessly Onboard Web2 users to Web3 </div>
+                    <div class="text-uppercase blue--text">Leverage your liquid staking tokens </div>
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">
-                      <a href="https://twitter.com/usekeyp">
+                      <a href="https://twitter.com/open_dollar">
                         <i data-v-40ab164b="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i>
                       </a>
                     </div>
@@ -316,7 +291,7 @@
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle1">
-                          <v-img src="https://app.0xkyc.id/img/icons/new-logo.png" alt="0xKYC Logo"></v-img>
+                          <v-img src="https://app.0xkyc.id/img/icons/oxKYC-logo.png" alt="0xKYC Logo"></v-img>
                         </div>
                       </div>
                     </div>
@@ -368,7 +343,7 @@
                     <div class="flex-center">
                       <div class="circle1a">
                         <div class="circle2">
-                          <v-img src="https://smartfunds.xyz/images/e82a5db032460b3e63209b5ce5db01ea.png" alt="SmartFunds Logo"/>
+                          <v-img src="~@/assets/img/smartFunds.logo.png" alt="SmartFunds Logo"/>
                         </div> 
                       </div>
                     </div>
