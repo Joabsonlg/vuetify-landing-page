@@ -10,10 +10,10 @@
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
-            <img src="@/assets/img/logo.png" alt="Logo" />
+            <img src="@/assets/img/KingBuffi.png" alt="Logo" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="title">Calango</v-list-item-title>
+            <v-list-item-title class="title">BufficornVentures</v-list-item-title>
             <v-list-item-subtitle>WEB</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
@@ -49,7 +49,7 @@
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png" max-width="50px" />
+        <v-img src="@/assets/img/BV.png" max-width="440px" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
@@ -58,20 +58,27 @@
         v-if="isXs"
       />
       <div v-else>
-        <v-btn text @click="$vuetify.goTo('#hero')">
+        <!-- v-btn text @click="$vuetify.goTo('#hero')">
           <span class="mr-2">Home</span>
+        </v-btn -->
+        <v-btn ripple color="white " text @click="$vuetify.goTo('#features')">
+          <span class="font-weight-bold" >How</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">Sobre</span>
+        <v-btn color="white " text @click="$vuetify.goTo('#portfolio')">
+          <span class="font-weight-bold">Portfolio</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#download')">
-          <span class="mr-2">Download</span>
+        <v-btn color="white " text @click="$vuetify.goTo('#investor')">
+          <span class="font-weight-bold">Participate</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">Preços</span>
+        <v-btn color="white " text href="https://www.ethdenver.com/festival/bv-lounge" target="_blank"> 
+          <span class="font-weight-bold ">@ETHDenver</span> 
         </v-btn>
-        <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">Contate-nos</span>
+
+        <v-btn rounded outlined color="white " text href="https://ethden.page.link/BVlearn" target="_blank"> 
+          <span class="font-weight-bold ">BV Deck</span> 
+        </v-btn>
+        <v-btn rounded outlined color="white " text href="https://ethden.page.link/apply" target="_blank"> 
+          <span class="mr-2 display-0">Get $</span>
         </v-btn>
       </div>
     </v-app-bar>
@@ -96,10 +103,9 @@ export default {
     isXs: false,
     items: [
       ["mdi-home-outline", "Home", "#hero"],
-      ["mdi-information-outline", "Sobre", "#features"],
+      ["mdi-information-outline", "About", "#features"],
       ["mdi-download-box-outline", "Download", "#download"],
-      ["mdi-currency-usd", "Preços", "#pricing"],
-      ["mdi-email-outline", "Contatos", "#contact"],
+      ["mdi-currency-usd", "Portfolio", "#portfolio"],
     ],
   }),
   props: {

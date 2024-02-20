@@ -1,28 +1,28 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/BufficornVFrame.png" justify="bottom" height="550">
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <v-row align="center" justify="center">
-            <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
-              <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+          <v-row align="center" justify="left">
+            <v-col cols="11" md="8" xl="11">
+              <h1 class="font-weight-bold">
+                <br/><br/>  Some of the most prolific Web3 projects have launched from the ETHDenver stage. 
+                As a Community of Communities investment DAO & incubator, we nurture pre-seed, post-hackathon projects. 
+                <br/><br/>Early alpha is what we do. 
               </h1>
-              <v-btn
-                rounded
+
+              <v-btn 
+              rounded
                 outlined
                 large
                 dark
-                @click="$vuetify.goTo('#features')"
+                href="https://ethden.page.link/BVlearn" 
+                target="_blank"
                 class="mt-5"
               >
-                Saiba mais
-                <v-icon class="ml-2">mdi-arrow-down</v-icon>
+                Get BV deck
               </v-btn>
-              <div class="video d-flex align-center py-4">
+              <!-- div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">
                   <svg
                     version="1.1"
@@ -63,7 +63,7 @@
                   </svg>
                 </a>
                 <p class="subheading ml-2 mb-0">Assista o vídeo</p>
-              </div>
+              </div -->
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
@@ -77,12 +77,6 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="space-around">
-            <!-- <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Title</h1>
-              <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </h1>
-            </v-col> -->
             <v-col
               cols="12"
               sm="4"
@@ -129,7 +123,7 @@
   </section>
 </template>
 
-<script>
+<!-- script>
 export default {
   data() {
     return {
@@ -183,7 +177,7 @@ export default {
     },
   },
 };
-</script>
+</script -->
 
 <style lang="scss">
 .circle {

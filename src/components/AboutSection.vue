@@ -1,27 +1,32 @@
 <template>
-  <section id="about">
+  <section id="how">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <v-row align="center" justify="center">
-            <v-col cols="12" md="7">
-              <h1 class="font-weight-light display-2">Sobre</h1>
+          <v-row align="left" justify="left">
+            <v-col  class="d-flex align-center">
               <h1 class="font-weight-light display-1 mb-3">
-                Lorem ipsum dolor!
+                <div align="left" justify="left">
+                  <img align="left" alighn="left" height="150px" max-height="175px" src="~@/assets/img/BuffiVentures_headers_how.png"/>
+                </div>
               </h1>
-              <v-row>
+              <h2 class="font-weight-light display-1 mb-3">
+                We help projects get from zero to one
+              </h2>
+              </v-col>
+          </v-row>
+          <v-row align="left" justify="left" class="font-weight-bold">
                 <v-col cols="12" class="d-flex align-center">
-                  <v-img
-                    src="@/assets/img/icon1.svg"
-                    max-width="60px"
-                    class="mr-4"
-                  />
-                  <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  <p class="text-justify" >
+                    The SporkDAO Community of Communities consists of over 100,000 ETHDenver attendees who are #BUIDLers, Bufficorns, founders, cypherpunks, solarpunks, investors, students, users, customers, educators, platforms, protocols, and the curious. 
+                    All stakeholders have incentive in helping Bufficorn Ventures portfolio companies succeed!
                   </p>
                 </v-col>
+              </v-row>
+          <v-row align="left" justify="left">
+            <v-col cols="12" md="7">
+
+              <v-row>
                 <v-col cols="12" class="d-flex align-center">
                   <v-img
                     src="@/assets/img/icon2.svg"
@@ -29,9 +34,27 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Identify high performing teams who align with Web3 Community ethos and goals
+                 </p>
+                </v-col>
+                <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/icon1.svg"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Provide between $25,000 and $150,000 in funding in exchange for 2 - 6% interest
+                  </p>
+                </v-col>
+                <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/icons8-internal-network-64.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Work only with teams committed to “full-time” on their project for 6 - 12 months
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -41,18 +64,27 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  </p>
+                    Incubate via the EthDenver/SporkDAO community of communities                   </p>
                 </v-col>
+                <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/icons8-collaborate-64.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Technical mentoring, strategic partnerships, investor introductions, & more                </p>
+                </v-col>
+                <br/><br/>
               </v-row>
+
+
             </v-col>
             <v-col cols="12" md="5" class="d-none d-md-flex">
               <v-img
-                src="@/assets/img/ill1.svg"
+                src="@/assets/img/Gold_Sporke_2023.png"
                 class="d-block ml-auto mr-auto"
-                max-width="400px"
+                max-width="300px"
               />
             </v-col>
           </v-row>
@@ -63,7 +95,7 @@
 </template>
 
 <style scoped>
-#about {
+#how {
   background-color: #f4f7f5;
 }
 </style>

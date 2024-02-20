@@ -15,14 +15,13 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-        Mauris cursus commodo interdum.
+        A member of the <a href="https://sporkdao.org">SporkDAO</a> community.
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Calango WEB</strong>
+        {{ new Date().getFullYear() }} — <strong>Copyright Bufficorn Ventures 2023</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -39,21 +38,18 @@ export default {
   data: () => ({
     icons: [
       {
-        text: "mdi-facebook",
-        link: "",
-      },
-      {
         text: "mdi-twitter",
-        link: "",
+        link: "https://twitter.com/BufficornV",
       },
       {
         text: "mdi-linkedin",
-        link: "",
+        link: "https://www.linkedin.com/company/bufficorn-ventures",
       },
       {
-        text: "mdi-instagram",
-        link: "https://instagram.com/joabson_arley/",
+        text: "mdi-mail",
+        link: "emailto:info@bufficorn.ventures",
       },
+
     ],
   }),
 };

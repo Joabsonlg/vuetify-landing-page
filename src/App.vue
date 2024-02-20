@@ -4,9 +4,10 @@
     <v-main class="pt-0">
       <home />
       <about />
-      <download />
-      <pricing />
-      <contact />
+      <!-- download / -->
+      <portfolio />
+      <investor />
+
     </v-main>
     <v-scale-transition>
       <v-btn
@@ -29,7 +30,7 @@
 
 <style scoped>
 .v-main {
-  background-image: url("~@/assets/img/bgMain.png");
+  background-image: url("~@/assets/img/bgMain2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -41,9 +42,11 @@ import navigation from "./components/Navigation";
 import foote from "./components/Footer";
 import home from "./components/HomeSection";
 import about from "./components/AboutSection";
-import download from "./components/DownloadSection";
-import pricing from "./components/PricingSection";
-import contact from "./components/ContactSection";
+// import download from "./components/DownloadSection";
+import portfolio from "./components/PortfolioSection";
+import investor from "./components/InvestorSection";
+//import contact from "./components/ContactSection";
+//import twitter from "./components/CalendarSection";
 
 export default {
   name: "App",
@@ -53,9 +56,9 @@ export default {
     foote,
     home,
     about,
-    download,
-    pricing,
-    contact,
+    investor,
+    portfolio
+    
   },
 
   data: () => ({
